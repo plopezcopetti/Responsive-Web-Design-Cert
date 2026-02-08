@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-list > li {
+    background-color: #f8f9fa;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    transition: transform 0.2s ease;
+}
+
+.todo-list > li:hover {
+    transform: translateX(5px);
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.sub-item {
+    list-style: none;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+.sub-item li {
+    padding: 8px 0;
+}
+
+/* Link styling requirements */
+a {
+    text-decoration: none;
+}
+
+/* Unvisited links - User Story 5 */
+.sub-item-link:link {
+    color: #667eea;
+}
+
+/* Visited links - User Story 6 */
+.sub-item-link:visited {
+    color: #9b59b6;
+}
+
+/* Hovered links - User Story 7 */
+.sub-item-link:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Focused links - User Story 8 */
+.sub-item-link:focus {
+    outline: 3px solid #f39c12;
+    outline-offset: 2px;
+    border-radius: 3px;
+}
+
+/* Active/clicked links - User Story 9 */
+.sub-item-link:active {
+    color: #27ae60;
+}
+
+/* Additional styling for better appearance */
+.sub-item-link {
+    font-size: 0.95em;
+    padding: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}

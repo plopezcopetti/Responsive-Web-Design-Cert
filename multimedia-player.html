@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Player</title>
+</head>
+<body>
+    <h1>My Multimedia Player</h1>
+    
+    <section>
+        <h2>Sailing Away - Audio Track</h2>
+        <audio controls aria-label="Sailing Away audio track">
+            <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    
+    <section>
+        <h2>What is the Map Method and How Does It Work?</h2>
+        <video controls width="600" aria-label="Educational video about the map method in JavaScript">
+            <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+            <track src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt" kind="subtitles" srclang="en" label="English">
+            Your browser does not support the video element.
+        </video>
+    </section>
+    
+    <section>
+        <h2>Transcript</h2>
+        <p>
+            The map method is one of the most powerful and commonly used array methods in JavaScript. 
+            It allows you to transform each element in an array and create a new array with the results. 
+            The map method takes a callback function as an argument, and this callback function is executed 
+            for each element in the array. The callback receives the current element, its index, and the 
+            entire array as parameters. The map method then returns a new array containing the values 
+            returned by the callback function for each element. It's important to note that the original 
+            array remains unchanged - map creates a new array rather than modifying the existing one. 
+            This makes it a pure function and a key tool in functional programming. Common use cases 
+            include extracting specific properties from objects in an array, performing calculations 
+            on numeric arrays, or formatting data for display. Understanding the map method is essential 
+            for writing clean, declarative JavaScript code.
+        </p>
+    </section>
+</body>
+</html>

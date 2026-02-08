@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Customer Feedback Survey</h1>
+    <p id="description">Help us improve our services by sharing your thoughts and experiences</p>
+    
+    <form id="survey-form">
+        <label id="name-label" for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+        
+        <label id="email-label" for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        <br><br>
+        
+        <label id="number-label" for="number">Age</label>
+        <input type="number" id="number" name="number" min="13" max="120" placeholder="20">
+        <br><br>
+        
+        <label for="dropdown">How did you hear about us?</label>
+        <select id="dropdown" name="referral">
+            <option value="">Select an option</option>
+            <option value="friend">Friend or Family</option>
+            <option value="social">Social Media</option>
+            <option value="search">Search Engine</option>
+            <option value="advertisement">Advertisement</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+        
+        <p>Would you recommend our service to others?</p>
+        <input type="radio" id="definitely" name="recommendation" value="definitely">
+        <label for="definitely">Definitely</label>
+        <br>
+        <input type="radio" id="maybe" name="recommendation" value="maybe">
+        <label for="maybe">Maybe</label>
+        <br>
+        <input type="radio" id="not-sure" name="recommendation" value="not-sure">
+        <label for="not-sure">Not Sure</label>
+        <br><br>
+        
+        <p>What features do you use most? (Check all that apply)</p>
+        <input type="checkbox" id="feature1" name="features" value="customer-support">
+        <label for="feature1">Customer Support</label>
+        <br>
+        <input type="checkbox" id="feature2" name="features" value="online-ordering">
+        <label for="feature2">Online Ordering</label>
+        <br>
+        <input type="checkbox" id="feature3" name="features" value="mobile-app">
+        <label for="feature3">Mobile App</label>
+        <br>
+        <input type="checkbox" id="feature4" name="features" value="loyalty-program">
+        <label for="feature4">Loyalty Program</label>
+        <br><br>
+        
+        <label for="comments">Additional Comments or Suggestions</label>
+        <br>
+        <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter your comments here..."></textarea>
+        <br><br>
+        
+        <button type="submit" id="submit">Submit Survey</button>
+    </form>
+</body>
+</html>
