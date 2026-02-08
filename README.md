@@ -21,7 +21,8 @@ Current projects include:
 - Hotel Feedback Form  
 - Movie Review Page  
 - Multimedia Player  
-- Survey Form  
+- Survey Form
+- Job Application Form
 
 Some projects are organized into folders when they include both HTML and CSS files. Others remain as single-file exercises, depending on the project scope.
 
