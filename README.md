@@ -30,9 +30,13 @@ Some projects are organized into folders when they include both HTML and CSS fil
 
 ## 🛠️ Technologies Used
 
-- HTML5 (semantic markup)
-- CSS3 (layout, typography, responsive design)
-- No frameworks or libraries, per certification requirements
+- HTML5: semantic structure, forms, tables, and accessibility-first markup
+- CSS3: selectors (including attribute selectors), pseudo-classes and pseudo-elements, color systems, typography, box model, positioning
+- Layout: responsive units, Flexbox, Grid, and responsive design patterns
+- CSS features: variables (custom properties) and animations
+- Accessibility: HTML/CSS practices aligned with accessible UI structure and styling
+
+These projects are built with plain HTML and CSS (no UI frameworks), following freeCodeCamp project constraints and test requirements.
 
 ---
 
