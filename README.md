@@ -6,7 +6,7 @@ The goal of this repository is to track my progress through the certification, k
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Each folder or standalone HTML file corresponds to an individual freeCodeCamp project or practice exercise.
 
@@ -28,7 +28,7 @@ Some projects are organized into folders when they include both HTML and CSS fil
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5: semantic structure, forms, tables, and accessibility-first markup
 - CSS3: selectors (including attribute selectors), pseudo-classes and pseudo-elements, color systems, typography, box model, positioning
@@ -40,22 +40,15 @@ These projects are built with plain HTML and CSS (no UI frameworks), following f
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This repository is part of my learning path toward full-stack development and contains projects completed for the freeCodeCamp Responsive Web Design Certification.
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Projects are implemented following freeCodeCamp specifications.
 - This repository is intentionally simple and dependency-free.
 - Style changes were applied, especially regarding typeface choices, due to personal taste.
 - Future revisions may include refactors or accessibility improvements as my skills evolve.
-
----
-
-## 📜 License
-
-This repository is shared for educational and portfolio purposes.
-Reuse or redistribution without permission is not intended.
